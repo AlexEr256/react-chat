@@ -1,0 +1,10 @@
+.join-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+  }
+  .join-input{
+    margin-bottom: 15px;
+    
+  }

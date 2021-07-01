@@ -1,0 +1,91 @@
+.Chat-wrapper{
+    display: flex;
+    margin:0 auto;
+    width:80%;
+    height: 500px;
+    border: 1px solid rgba(159, 183, 197, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+.Users{
+    border-right: 1px solid rgba(159, 183, 197, 0.1);
+    width: 200px;
+    background-color: #f6f9fa; 
+  }
+  .Chat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    padding: 30px;
+  }
+  .Room{
+    display: block;
+    margin-bottom: 30px;
+  }
+  .Room:after{
+    content:'';
+    display: block;
+    position: relative;
+    border-bottom: 2px solid black ;
+    bottom: 0;
+  }
+  .Messages{
+    flex: 1;
+    height: calc(100% - 155px);
+    overflow: auto;
+  }
+  .Online-users{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .active-user{
+    background-color:  #7160ff;
+    color:#fff;
+    flex-grow: 1;
+  }
+  .Message-User{
+    font-size: 11px;
+    font-style: italic;
+    margin-right: 10px;
+  }
+  .Message p{
+    display: inline-flex;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-left: 75%;
+    background-color: #7160ff;
+    padding: 10px 15px 15px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .Your-Message p{
+    display:inline-flex;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: rgb(68,187,253);
+    padding: 10px 15px 15px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .your-message{
+    display: flex;
+    flex-direction: row;
+  }
+  .textarea-input{
+    width:75%;
+    margin-left: 40px;
+  }
+  .btn-custom{
+    width:25%;
+  }
+  li{
+    list-style-type: none;
+  }
+  
+  p{
+    border: 1px solid black;
+    font-size: 12px;
+    padding: 5px 30px;
+  }
+  
